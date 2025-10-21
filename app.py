@@ -4,7 +4,7 @@ import docx
 from openai import OpenAI
 
 # --- OpenAI Client ---
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="uploard API KEY ")
 
 # --- Page Config ---
 st.set_page_config(page_title="AI Resume Analyzer", layout="wide", page_icon="📄")
