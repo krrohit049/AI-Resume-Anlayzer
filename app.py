@@ -4,8 +4,8 @@ import docx
 from openai import OpenAI
 
 # --- OpenAI Client ---
-client = OpenAI(api_key="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")
-
+#client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["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"])
 # --- Page Config ---
 st.set_page_config(page_title="AI Resume Analyzer", layout="wide", page_icon="📄")
 
